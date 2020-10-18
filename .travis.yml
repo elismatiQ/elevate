@@ -2,7 +2,6 @@ install:
 - wget https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 - hugo version
-- hugo mod init github.com/digitalcraftsman/hugo-minimalist-theme.git
 before_script:
 - rm -rf public
 script:
@@ -10,4 +9,3 @@ script:
 branch:
  only:
  - master
-  
