@@ -11,11 +11,11 @@ theme = "hugo-minimalist-theme"
 themesDir = "../.."
 
 [params]
-    site_author = "John Doe"
+    site_author = "David Elisma"
     site_description = "The awesome blog of John Doe."
     location = "Earth"
     # Link custom assets relative to /static
-    avatar = "img/hugo-logo.png"
+    avatar = "img/profile-image.png"
     header_background = "img/coffee.jpg"
     header_title = "elevatE"
     copyright = "Powered by [Hugo](http://gohugo.io)."
